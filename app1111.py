@@ -5,9 +5,9 @@ import joblib
 
 # 1. Load the model and scaler
 # These files must be in the same GitHub folder!
-model = joblib.load('smartphone_model.pkl',"rb")
-le = joblib.load('Labelecoder.joblib',"rb")
-scaler = joblib.load('scaler.joblib',"rb")
+model = joblib.load('smartphone_model.pkl',"r")
+le = joblib.load('Labelecoder.joblib',"r")
+scaler = joblib.load('scaler.joblib',"r")
 
 st.title("Smartphone Addiction Analysis")
 
