@@ -5,7 +5,7 @@ import joblib
 
 # 1. Load the model and scaler
 # These files must be in the same GitHub folder!
-model = joblib.load('svm_model.joblib')
+model = joblib.load('model.joblib')
 le = joblib.load('Labelecoder.joblib')
 scaler = joblib.load('scaler.joblib')
 
